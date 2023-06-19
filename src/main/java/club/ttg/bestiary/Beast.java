@@ -3,6 +3,7 @@ package club.ttg.bestiary;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -12,6 +13,16 @@ import java.util.List;
 public class Beast {
     @Id
     private String id;
+
+    /**
+     * Размер существа
+     */
+    private String size;
+
+    /**
+     * Мировоззрение.
+     */
+    private String alignment;
 
     /**
      * Имя существа.
@@ -28,6 +39,7 @@ public class Beast {
      */
     private ArmorClass armorClass;
 
+    private Hits hits;
     /**
      * Скорость.
      */
@@ -128,4 +140,14 @@ public class Beast {
     private String lairEffects;
 
     private List<String> environments;
+
+    /**
+     * Источник
+     */
+    private Source source;
+
+    /**
+     * Прочие источники, где упоминается
+     */
+    private Collection<Source> otherSources;
 }
