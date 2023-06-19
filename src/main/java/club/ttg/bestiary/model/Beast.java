@@ -1,4 +1,4 @@
-package club.ttg.bestiary;
+package club.ttg.bestiary.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

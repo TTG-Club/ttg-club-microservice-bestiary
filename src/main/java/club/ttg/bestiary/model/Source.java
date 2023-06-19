@@ -1,4 +1,4 @@
-package club.ttg.bestiary;
+package club.ttg.bestiary.model;
 
 import lombok.Getter;
 import lombok.Setter;

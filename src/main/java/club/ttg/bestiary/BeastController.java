@@ -1,5 +1,6 @@
 package club.ttg.bestiary;
 
+import club.ttg.bestiary.model.Beast;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springdoc.core.annotations.ParameterObject;

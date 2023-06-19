@@ -1,5 +1,6 @@
 package club.ttg.bestiary;
 
+import club.ttg.bestiary.model.Beast;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

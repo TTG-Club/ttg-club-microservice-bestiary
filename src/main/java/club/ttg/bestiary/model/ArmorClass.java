@@ -1,15 +1,14 @@
-package club.ttg.bestiary;
+package club.ttg.bestiary.model;
 
 import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Бонус к навыку.
+ * Класс доспеха.
  */
 @Getter
 @Setter
-public class Skill {
-    private String name;
+public class ArmorClass {
     private int value;
     private String suffix;
 }
