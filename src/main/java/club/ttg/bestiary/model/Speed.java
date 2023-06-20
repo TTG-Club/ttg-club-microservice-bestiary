@@ -12,6 +12,12 @@ public class Speed {
      * Летая
      */
     private Integer fly;
+
+    /**
+     * Парит при полете
+     */
+    private Boolean hover;
+
     /**
      * Копая
      */

@@ -150,4 +150,9 @@ public class Beast {
      * Прочие источники, где упоминается
      */
     private Collection<Source> otherSources;
+
+    /**
+     * Ссылки на изображения
+     */
+    private Collection<String> images;
 }
