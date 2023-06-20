@@ -9,6 +9,12 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ArmorClass {
+    /**
+     * Значения класса доспеха
+     */
     private int value;
+    /**
+     * Дополнительное описание
+     */
     private String suffix;
 }

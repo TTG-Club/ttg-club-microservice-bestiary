@@ -11,7 +11,16 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Name {
+    /**
+     * Имя на русском
+     */
     private String name;
+    /**
+     * Имя на английском
+     */
     private String englishName;
+    /**
+     * Альтернативное имя
+     */
     private String altName;
 }

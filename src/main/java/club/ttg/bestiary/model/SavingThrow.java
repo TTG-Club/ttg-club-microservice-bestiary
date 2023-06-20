@@ -9,7 +9,16 @@ import lombok.Setter;
 @Getter
 @Setter
 public class SavingThrow {
+    /**
+     * Характеристика
+     */
     private String ability;
+    /**
+     * Значение
+     */
     private int value;
+    /**
+     * Дополнительный бонус
+     */
     private int suffix;
 }

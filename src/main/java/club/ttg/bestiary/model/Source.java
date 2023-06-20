@@ -3,6 +3,9 @@ package club.ttg.bestiary.model;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Источник
+ */
 @Getter
 @Setter
 public class Source {

@@ -9,7 +9,16 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Skill {
+    /**
+     * Название навыка
+     */
     private String name;
+    /**
+     * Значение
+     */
     private int value;
+    /**
+     * Дополнительный бонус
+     */
     private String suffix;
 }
