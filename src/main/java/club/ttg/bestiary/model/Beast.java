@@ -20,6 +20,16 @@ public class Beast {
     private String size;
 
     /**
+     * Тип существа
+     */
+    private String type;
+
+    /**
+     * Рой
+     */
+    private Swarm swarm;
+
+    /**
      * Мировоззрение.
      */
     private String alignment;
