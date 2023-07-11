@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.List;
 
 /**
- * Бестиарий.
+ * Бестиарий существ.
  */
 @Document("bestiary")
 public class Beast {
@@ -32,7 +32,7 @@ public class Beast {
     /**
      * Мировоззрение.
      */
-    private String alignment;
+    private Name alignment;
 
     /**
      * Имя существа.
@@ -50,6 +50,7 @@ public class Beast {
     private ArmorClass armorClass;
 
     private Hits hits;
+
     /**
      * Скорость.
      */
@@ -72,22 +73,22 @@ public class Beast {
     /**
      * Сопротивления к урону
      */
-    private List<String> damageResistances;
+    private List<Name> damageResistances;
 
     /**
      * Иммунитеты к урону
      */
-    private List<String> damageImmunities;
+    private List<Name> damageImmunities;
 
     /**
      * Уязвимости к урону
      */
-    private List<String> damageVulnerabilities;
+    private List<Name> damageVulnerabilities;
 
     /**
      * Иммунитеты к состояниям
      */
-    private List<String> conditionImmunities;
+    private List<Name> conditionImmunities;
 
     /**
      * Чувства

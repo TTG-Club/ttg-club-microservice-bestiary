@@ -12,7 +12,7 @@ public class Skill {
     /**
      * Название навыка
      */
-    private String name;
+    private Name name;
     /**
      * Значение
      */
